@@ -1,0 +1,137 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Apex Football Academy | Elite Youth Training</title>
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+
+  <header class="site-header">
+    <div class="container nav-container">
+      <h1 class="logo">⚽ BarcaBeat</h1>
+      <nav class="nav-menu">
+        <a href="#hero">Home</a>
+        <a href="#features">Features</a>
+        <a href="#gallery">Gallery</a>
+        <a href="#register">Register</a>
+      </nav>
+    </div>
+  </header>
+
+  <section id="hero" class="hero">
+    <div class="container hero-layout">
+      <div class="hero-text">
+        <h2>Train Like a Pro. Play Like a Legend.</h2>
+        <p>Join the region's top-rated youth football academy. Develop world-class tactical awareness, precision technical skills, and match-winning physical conditioning under UEFA-licensed coaches.</p>
+        <a href="#register" class="btn">Join Tryouts Now</a>
+      </div>
+      <div class="hero-image">
+        <img src="https://images.unsplash.com/photo-1517466787929-bc90951d0974?auto=format&fit=crop&w=500&q=80" alt="Football player training on the pitch">
+      </div>
+    </div>
+  </section>
+
+  <section id="features" class="features container">
+    <h2>What You Will Master</h2>
+    <div class="feature-grid">
+      <div class="card">
+        <h3>Ball Mastery</h3>
+        <p>Perfect your first touch, close control, and dribbling in tight match situations.</p>
+      </div>
+
+      <div class="card">
+        <h3>Precision Passing</h3>
+        <p>Master short tiki-taka distributions and accurate long-range crossfield switches.</p>
+      </div>
+
+      <div class="card">
+        <h3>Shooting & Finishing</h3>
+        <p>Develop clinical striking power, standard placement, and 1v1 composure against keepers.</p>
+      </div>
+
+      <div class="card">
+        <h3>Tactical Awareness</h3>
+        <p>Understand positional play, high-press structures, and modern counter-attacking systems.</p>
+      </div>
+
+      <div class="card">
+        <h3>Speed & Agility</h3>
+        <p>Boost your acceleration, directional cutting speed, and overall match stamina.</p>
+      </div>
+
+      <div class="card">
+        <h3>Set Piece Mastery</h3>
+        <p>Execute perfect corner routines, direct free-kicks, and defensive aerial clearing wall setups.</p>
+      </div>
+
+      <div class="card">
+        <h3>Match Mentality</h3>
+        <p>Build sports leadership, game discipline, team communication, and elite mental toughness.</p>
+      </div>
+
+      <div class="card">
+        <h3>Performance Analysis</h3>
+        <p>Review filmed training sessions and match data metrics to patch up structural flaws.</p>
+      </div>
+    </div>
+  </section>
+
+  <section id="gallery" class="gallery-section">
+    <div class="container">
+      <h2>Life At The Academy</h2>
+      <div class="gallery-grid">
+        <img src="https://images.unsplash.com/photo-1517466787929-bc90951d0974?auto=format&fit=crop&w=500&q=80" alt="Team celebrating a goal">
+        <img src="https://images.unsplash.com/photo-1544698310-74ea9d1c8258?auto=format&fit=crop&w=500&q=80" alt="Football match action slide tackle">
+        <img src="https://images.unsplash.com/photo-1544698310-74ea9d1c8258?auto=format&fit=crop&w=500&q=80" alt="Football training cones drill">
+      </div>
+    </div>
+  </section>
+
+  <section id="register" class="form-section">
+    <div class="container form-layout">
+      <div class="form-info">
+        <div class="info-box">
+          <h2>Secure Your Trial Today</h2>
+          <p class="form-description">Spaces are limited for our upcoming seasonal development showcase rosters. Submit your application details below, and our coaching scouts will contact you with session timings.</p>
+        </div>
+        <div class="contact-box">
+          <h3>Academy HQ</h3>
+          <div class="contact-item"><strong>Address:</strong> Apex Stadium Complex, Sector 7</div>
+          <div class="contact-item"><strong>Email:</strong> <a href="mailto:trials@apexfc.com">trials@apexfc.com</a></div>
+          <div class="contact-item"><strong>Hotline:</strong> +6012-345 6789</div>
+        </div>
+      </div>
+
+      <form class="register-form" onsubmit="event.preventDefault(); alert('Trial Registration Submitted!');">
+        <label for="name">Player's Full Name</label>
+        <input type="text" id="name" placeholder="Enter player name" required>
+
+        <label for="email">Parent / Guardian Email</label>
+        <input type="email" id="email" placeholder="Enter email address" required>
+
+        <label for="phone">Contact Phone Number</label>
+        <input type="tel" id="phone" placeholder="e.g., +6012-345 6789" required>
+
+        <label for="level">Current Playing Level</label>
+        <select id="level">
+          <option>Beginner (Rec League)</option>
+          <option>Intermediate (Club/School Team)</option>
+          <option>Advanced (Academy/State Roster)</option>
+        </select>
+
+        <label for="message">Preferred Position & Playing Background</label>
+        <textarea id="message" rows="5" placeholder="Tell our scouting staff about your preferred positions or previous clubs..."></textarea>
+
+        <button type="submit">Submit Trial Request</button>
+      </form>
+    </div>
+  </section>
+
+  <footer class="footer">
+    <p>&copy; 2026 Apex Football Academy. All Rights Reserved. Built for champions.</p>
+  </footer>
+
+</body>
+</html>
